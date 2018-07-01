@@ -1,0 +1,5 @@
+[0m[[31merror[0m] [0m[0m[34m[1] [0m[0m[4m/src/main/scala/generator/CustomMySQLProfile.scala[0m:[0m[31m8[0m:[0m
+[0m[[31merror[0m] [0m    ';' expected but 'object' found.[0m
+[0m[[31merror[0m] [0m    import scala.concurrent.ExecutionContext object CustomMySQLProfile extends MySQLProfile with CustomJdbcModelComponent {[0m
+[0m[[31merror[0m] [0m                                             ^[0m
+[0m[[31merror[0m] [0m/src/main/scala/generator/CustomMySQLProfile.scala: [0m[31m8[0m[0m[34m [1][0m[0m
