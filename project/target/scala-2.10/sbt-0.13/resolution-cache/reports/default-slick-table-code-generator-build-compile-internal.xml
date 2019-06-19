@@ -9,27 +9,27 @@
 		extra-sbtVersion="0.13"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180701134602"/>
+		date="20190309135150"/>
 	<dependencies>
 		<module organisation="org.scalariform" name="sbt-scalariform">
-			<revision name="1.8.0" status="release" pubdate="20170811020214" resolver="public" artresolver="public" homepage="https://github.com/sbt/sbt-scalariform" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="1.8.0" status="release" pubdate="20170811020214" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt-scalariform" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2306" time="821" location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.scalariform/sbt-scalariform/ivy-1.8.0.xml" searched="true" original-local-location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.scalariform/sbt-scalariform/ivy-1.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalariform/sbt-scalariform_2.10_0.13/1.8.0/sbt-scalariform-1.8.0.pom"/>
+				<metadata-artifact status="no" details="" size="3128" time="0" location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.scalariform/sbt-scalariform/ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalariform/sbt-scalariform_2.10_0.13/1.8.0/sbt-scalariform-1.8.0.pom"/>
 				<caller organisation="default" name="slick-table-code-generator-build" conf="compile-internal, compile, provided, optional" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-scalariform" type="jar" ext="jar" status="successful" details="" size="86902" time="2056" location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.scalariform/sbt-scalariform/jars/sbt-scalariform-1.8.0.jar">
+					<artifact name="sbt-scalariform" type="jar" ext="jar" status="no" details="" size="86902" time="0" location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.scalariform/sbt-scalariform/jars/sbt-scalariform-1.8.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalariform/sbt-scalariform_2.10_0.13/1.8.0/sbt-scalariform-1.8.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalariform" name="scalariform_2.10">
-			<revision name="0.2.3" status="release" pubdate="20170810222056" resolver="public" artresolver="public" homepage="https://github.com/scala-ide/scalariform" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+			<revision name="0.2.3" status="release" pubdate="20170810222056" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scala-ide/scalariform" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="2332" time="819" location="/Users/marcy/.ivy2/cache/org.scalariform/scalariform_2.10/ivy-0.2.3.xml" searched="true" original-local-location="/Users/marcy/.ivy2/cache/org.scalariform/scalariform_2.10/ivy-0.2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.3/scalariform_2.10-0.2.3.pom"/>
+				<metadata-artifact status="no" details="" size="2796" time="0" location="/Users/marcy/.ivy2/cache/org.scalariform/scalariform_2.10/ivy-0.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.3/scalariform_2.10-0.2.3.pom"/>
 				<caller organisation="org.scalariform" name="sbt-scalariform" conf="default, compile, runtime, master" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="1.8.0"/>
 				<artifacts>
-					<artifact name="scalariform_2.10" type="jar" ext="jar" status="successful" details="" size="1968470" time="7899" location="/Users/marcy/.ivy2/cache/org.scalariform/scalariform_2.10/jars/scalariform_2.10-0.2.3.jar">
+					<artifact name="scalariform_2.10" type="jar" ext="jar" status="no" details="" size="1968470" time="0" location="/Users/marcy/.ivy2/cache/org.scalariform/scalariform_2.10/jars/scalariform_2.10-0.2.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.2.3/scalariform_2.10-0.2.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -668,11 +668,11 @@
 			</revision>
 		</module>
 		<module organisation="org.duhemm" name="sbt-errors-summary">
-			<revision name="0.3.0" status="release" pubdate="20170703155113" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="0">
-				<metadata-artifact status="successful" details="" size="3027" time="4666" location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.duhemm/sbt-errors-summary/ivy-0.3.0.xml" searched="true" original-local-location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.duhemm/sbt-errors-summary/ivy-0.3.0.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.duhemm/sbt-errors-summary/scala_2.10/sbt_0.13/0.3.0/ivys/ivy.xml"/>
+			<revision name="0.3.0" status="release" pubdate="20170703155113" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="no" details="" size="3027" time="0" location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.duhemm/sbt-errors-summary/ivy-0.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.duhemm/sbt-errors-summary/scala_2.10/sbt_0.13/0.3.0/ivys/ivy.xml"/>
 				<caller organisation="default" name="slick-table-code-generator-build" conf="compile-internal, compile, provided, optional" rev="0.3.0" rev-constraint-default="0.3.0" rev-constraint-dynamic="0.3.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-errors-summary" type="jar" ext="jar" status="successful" details="" size="42698" time="6389" location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.duhemm/sbt-errors-summary/jars/sbt-errors-summary-0.3.0.jar">
+					<artifact name="sbt-errors-summary" type="jar" ext="jar" status="no" details="" size="42698" time="0" location="/Users/marcy/.ivy2/cache/scala_2.10/sbt_0.13/org.duhemm/sbt-errors-summary/jars/sbt-errors-summary-0.3.0.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.duhemm/sbt-errors-summary/scala_2.10/sbt_0.13/0.3.0/jars/sbt-errors-summary.jar"/>
 					</artifact>
 				</artifacts>
